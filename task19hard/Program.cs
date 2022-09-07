@@ -6,9 +6,7 @@
 Console.Write("Введите число: ");
 long number = Convert.ToInt64(Console.ReadLine());
 long result=0;
-result = ViceVersa(number);
 
-//написать функцию палиндрома
 
 long ViceVersa (long count)
 {
@@ -20,6 +18,7 @@ long ViceVersa (long count)
     }
     return result;
 }
+result = ViceVersa(number);
 
 void Palindrome()
 {
